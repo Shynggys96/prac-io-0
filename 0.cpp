@@ -17,5 +17,6 @@ int main() {
 	hello[12] = '!';
 	hello[13] = '\0';
 	std::cout << hello << std::endl;
+	delete []hello;
 	return (2 + 2 == 5);
 }
